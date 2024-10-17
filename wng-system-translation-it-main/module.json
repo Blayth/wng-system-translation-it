@@ -1,0 +1,41 @@
+{
+  "id": "wng-system-translation-it",
+  "title": "Translation: Wrath & Glory - System - Traduzione IT",
+  "description": "Questo modulo implementa la traduzione italiana del sistema creato da Man Moon per giocare a Warhammer 40k: Wrath & Glory.",
+  "authors": [
+    {
+      "name": "Blacklisted Jack",
+      "discord": "blacklistedjack",
+      "url": "https://github.com/alemanym",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wrath-and-glory",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "coreTranslation": true,
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json",
+      "flags": {}
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md",
+  "url": "https://github.com/Blayth/wng-system-translation-it",
+  "manifest": "https://github.com/Blayth/wng-system-translation-it/releases/download/1.0.0/module.json",
+  "download": "https://github.com/Blayth/wng-system-translation-it/releases/download/1.0.0/wng-system-translation-it.zip"
+}
