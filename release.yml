@@ -2,8 +2,8 @@ name: Release
 
 on:
   push:
-    branches: [ "main" ]
-    tags: 
+    branches: ["main"]
+    tags:
       - "*"
 
 jobs:
@@ -13,36 +13,36 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        
+
       - name: Get Module ID
         id: moduleID
         uses: notiz-dev/github-action-json-property@release
-        with: 
-          path: 'module.json'
-          prop_path: 'id'
-          
-      - name: Get tag    
+        with:
+          path: "module.json"
+          prop_path: "id"
+
+      - name: Get tag
         id: tag
         uses: dawidd6/action-get-tag@v1.1.0
 
       - name: Create ZIP
         working-directory: ./
         run: zip -r ./${{steps.moduleID.outputs.prop}}.zip ./*
-          
+
       - name: Set Download Link
         uses: jossef/action-set-json-field@v2
         with:
-          file: './module.json'
-          field: 'download'
+          file: "./module.json"
+          field: "download"
           value: "https://github.com/${{github.repository}}/releases/download/${{steps.tag.outputs.tag}}/${{steps.moduleID.outputs.prop}}.zip"
-          
+
       - name: Set Manifest Link
         uses: jossef/action-set-json-field@v2
         with:
-          file: './module.json'
-          field: 'manifest'
+          file: "./module.json"
+          field: "manifest"
           value: "https://github.com/${{github.repository}}/releases/download/${{steps.tag.outputs.tag}}/module.json"
-          
+
       - name: Create Release
         uses: ncipollo/release-action@v1.9.0
         with:
