@@ -17,7 +17,8 @@
   },
   "relationships": {
     "systems": [
-      {"id": "wrath-and-glory",
+      {
+        "id": "wrath-and-glory",
         "type": "system",
         "compatibility": {}
       }
