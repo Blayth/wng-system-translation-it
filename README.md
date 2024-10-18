@@ -18,7 +18,6 @@ Questa traduzione riguarda solo il sistema in sé e non il contenuto dei compend
 L'impatto sarà quindi visibile soprattutto sui termini generici utilizzati nelle schede giocatore (Agenti, PNG e Veicoli), nonché suirisultati dei tiri di dado nella chat room.
 
 N.B.: Alcuni termini saranno ancora in inglese nella chat, ma questo perché non sono stati esposti alla possibilità di traduzione.
-Tradotto con DeepL.com (versione gratuita)
 
 ## Installation
 
