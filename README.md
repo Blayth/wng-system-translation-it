@@ -29,14 +29,14 @@ tramite il menu di configurazione della homepage di Foundry:
 
 - Lingua predefinita: scegliere Italiano - IT - Traduzione Core
 
+  una volta lanciato il mondo, in impostazioni => gestione moduli
+
+- selezionare “Translation: Wrath & Glory - System - Traduzione IT” e salvare.
+
 ## Patch 1.0.5
 - Corretta la label Grinta, tradotta erroneamente come Volontà o determinazione;
 - Sistemato un errore del file json che ne impediva l'istallazione;
 - Modificata label "Obbiettivo Scena", spostandola nella sezione superiore per ottimizare gli spazi della scheda;
-
-una volta lanciato il mondo, in impostazioni => gestione moduli
-
-- selezionare “Translation: Wrath & Glory - System - Traduzione IT” e salvare.
 
 ## Dépendences
 
